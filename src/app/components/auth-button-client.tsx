@@ -21,6 +21,8 @@ export function AuthButton ({ session }: { session: Session | null }) {
     router.refresh()
   }
 
+  console.log(session)
+
   return (
     <header>
         {
